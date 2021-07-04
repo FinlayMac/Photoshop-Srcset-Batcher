@@ -30,7 +30,7 @@ var widthInPx = parseInt(prompt("How wide should the image be in px?\nAspect rat
 do {
     if (widthInPx) {
         //calls the document the name + width
-        var documentName = filename + "_" + widthInPx;
+        var documentName = filename + "-" + widthInPx;
 
         //opens a new image to protect the original (prevents resizing mistakes)
         originalImage.duplicate(documentName, true);
